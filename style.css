@@ -2,6 +2,10 @@ body{
     background-color: #193549;
 }
 
+h1 {
+    color: #75eeb2;
+}
+
 .grid {
     width: 400px;
     height: 600px;

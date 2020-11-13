@@ -179,6 +179,11 @@ document.addEventListener('DOMContentLoaded', () => {
         document.addEventListener('keyup', control)
       } 
     }
-    start()
-  })
-  
+
+    start();
+  });
+
+
+function playAgain() {
+  location.reload();
+}
