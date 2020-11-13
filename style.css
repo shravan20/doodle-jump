@@ -1,7 +1,11 @@
+body{
+    background-color: #193549;
+}
+
 .grid {
     width: 400px;
     height: 600px;
-    background-color: yellow;
+    background-color: #CAD0D8;
     position: relative;
 }
 
