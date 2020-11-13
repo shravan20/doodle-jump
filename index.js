@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         for(let i=0; i<platformCount; i++){
             let platformSpace = 600 / platformCount; //Gap btwn platforms
             let newPlatformBottom = 100 + i * platformSpace;
-            let newPlatform = new platformCount();
+            let newPlatform = new platformCount(newPlatformBottom);
         }
 
     }
