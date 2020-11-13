@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let doodlerLeftSpace = 50;
     let doodlerBottomSpace = 150;
     let platformCount = 5;
-
+    let isGameOver = false;
+    
     createDoodler = () => {
         grid.appendChild(doodler);
         doodler.classList.add('doodler');
@@ -18,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         constructor(newPlatformBottom){
             this.bottom = newPlatformBottom;
             this.left = Math.random() * 315;
-            
             this.visual = document.createElement('div');
 
             const visual = this.visual;
