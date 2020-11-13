@@ -163,6 +163,9 @@ document.addEventListener('DOMContentLoaded', () => {
       grid.removeChild(grid.firstChild)
     }
     grid.innerHTML = score
+
+    alert("Score:" + score);
+
     clearInterval(upTimerId)
     clearInterval(downTimerId)
     clearInterval(leftTimerId)
@@ -171,7 +174,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function start() {
-    if (!isGameOver) {
+
+    if (!isGameOver) {  
       createPlatforms()
       createDoodler()
       setInterval(movePlatforms, 30)
@@ -185,6 +189,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 function playAgain() {
-  console.log(123)
   location.reload();
 }
