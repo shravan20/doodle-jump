@@ -22,3 +22,11 @@ body{
     background-color: green;
     position: absolute;
 }
+
+.button.play {
+    width: 74px;
+    height: 74px;
+    border-style: solid;
+    border-width: 37px;
+    border-color: #202020;
+}
